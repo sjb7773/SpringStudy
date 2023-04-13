@@ -3,9 +3,12 @@ package JB.JBspring.service;
 import JB.JBspring.domain.Member;
 import JB.JBspring.repository.MemberRepository;
 import JB.JBspring.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+
 
 public class MemberService {
 
